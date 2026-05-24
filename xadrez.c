@@ -16,24 +16,23 @@ int main() {
     // Utilizando estrutura WHILE
     printf("***MOVIMENTO DO BISPO***\n");
     while(i <= casasBispo){//Condicional
-        printf("Cima, Direita\n");//Movimento
+        printf("\tCima, Direita\n");//Movimento
         i++;//Incremento
     }
-
+    printf("\n"); //Pular uma linha por questão estética
     // Implementação de Movimentação da Torre
     // Utilizando estrutura FOR
     printf("***MOVIMENTO DA TORRE***\n");
     for(i = 1; i <= casasTorre; i++){//Início do contador, condicional e incremento
-        printf("Direita\n");//Movimento
+        printf("\tDireita\n");//Movimento
     }
-
+    printf("\n"); //Pular uma linha por questão estética
     i = 1; // Ajuste da variável dos contadores
-
     // Implementação de Movimentação da Rainha
     // Utilizando estrutura do-while
     printf("***MOVIMENTO DA RAINHA***\n");
     do{
-        printf("Esquerda\n");
+        printf("\tEsquerda\n");
         i++;
     }while(i <= casasRainha);
 
